@@ -1,0 +1,46 @@
+.aboutcontainer{
+    display: flex;
+}
+
+.leftabout{
+    color: white;
+    height: 275px;
+    width: 50%;
+    margin-top: 10vmax;
+    margin-left: 1vmax;
+}
+.rightabout{
+    color: white;
+    height: 270px;
+    width: 56%;
+    margin-top: 10vmax;
+    margin-left: 1vmax;
+}
+img{
+    display: flex;
+    margin-top: -100px;
+    padding-top: 12px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+   margin: 12px;
+}
+.firstlink{
+    border: 2px solid brown;
+    margin: 10px;
+    padding: 12px;
+    background-color: rgb(58, 206, 58);
+}
+
+.secondlink{
+    border: 2px solid brown;
+    margin: 10px;
+    padding: 12px;
+    background-color: rgb(60, 57, 57);
+}
+.addinglink{
+    margin-top: 30px;
+}
+

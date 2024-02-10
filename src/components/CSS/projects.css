@@ -1,0 +1,55 @@
+.projectContainer{
+    margin-top: 160px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    margin-right: 200px;
+    justify-content: center;
+    text-align: center;
+}
+.icon{
+    color: white;
+    font-weight: 100;
+}
+.heading{
+    color: white;
+}
+.about-it{
+    display: flex;
+    text-align: center;
+    /* width: 50%; */
+    color: white;
+}
+
+
+
+.projimage  > img{
+    width:33vmax;
+    object-fit: contain;
+    margin-top: 43px;
+}
+
+.myallproject{
+    color: white;
+    display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns */
+  grid-gap: 7px;
+
+}
+
+.projimage{
+    margin-bottom: 0px;
+}
+
+.myallproject > img {
+    height: 400px;
+    width: 300px;
+}
+
+ h2{
+    margin-top: 60px;
+}
+
+.imagelink{
+    /* border: 2px solid red; */
+}
