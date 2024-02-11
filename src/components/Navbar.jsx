@@ -4,6 +4,7 @@ import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import { Link } from '@mui/material';
 
 function Navbar() {
+
   return (
     <Fragment>
         <div className='container'>
@@ -17,7 +18,7 @@ function Navbar() {
                </div>
                <div className='rightside'>
                 <ul className='rightul'>
-                    <a href="">Hire Me</a>
+                    <a href="#sections">Hire Me</a>
                     
                 </ul>
                 <div className='arrow'>

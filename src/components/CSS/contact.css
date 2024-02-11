@@ -1,3 +1,69 @@
-.aa{
+.contactcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.google{
+    width: 60%;
+    height: 40vw;
+    /* background-color: red; */
+}
+.form{
+    /* background-color: green; */
+    width: 40%;
+    height: 40vw;
+}
+.mainarea{
+    margin-left: 50px;
+    margin-top: -45px;
     color: white;
 }
+  
+.name > label {
+    color: rgb(147, 145, 145);
+}
+.name > input {
+    width: 92%;
+    height: 30px;
+    background-color: rgb(52, 50, 50);
+    color: white;
+    margin-top: 4px;
+}
+.email{
+    margin-top: 20px;
+}
+
+.email > label {
+    color: rgb(147, 145, 145);
+}
+.email > input {
+    width: 92%;
+    height: 30px;
+    background-color: rgb(52, 50, 50);
+    color: white;
+    margin-top: 4px;
+}
+
+.message{
+    margin-top: 20px;
+}
+.message > label {
+    color: rgb(147, 145, 145);
+}
+.message > textarea {
+    width: 92%;
+    height: 135px;
+    background-color: rgb(52, 50, 50);
+    color: white;
+    margin-top: 4px;
+}
+
+.submit > input{
+    margin-top: 20px;
+    height: 30px;
+    width: 92%;
+    background-color: rgb(54, 54, 214);
+    color: white;
+    cursor: pointer;
+}
+
